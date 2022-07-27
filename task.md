@@ -12,12 +12,12 @@ The teacher now wants to accept requests for a class from the students. In respo
 
 4. The request will contain the student's name, email address and their prefered day and time slot.
 
-5. In response, the student should get the confirmed date and time for the class.
+5. If a teacher is available at the student's preferred day and time slot, store the same in your application and send the confirmed date and time slot back in response.
 
-6. If a teacher is available at the student's preferred day and time slot, store the same in your application and send the confirmed date and time slot back in response.
+6. Additionally, send an email to the student with the confirmed date and time slot details for the class. (You do not need to actually send the email, just write the available function in your chosen framework that sends email including the Student's Name, Class Date, Class Start Time and End Time in its body.)
 
-7. Additionally, send an email to the student with the confirmed date and time slot details for the class. (You do not need to actually send the email, just write the available function in your chosen framework that sends email including the Student's Name, Class Date, Class Start Time and End Time in its body.)
+7.  If a teacher is booked for a student’s preferred weekday, check for the same day, next week and repeat this procedure unless you find a date on which the teacher is available.
 
-8. If a teacher is booked for a student’s preferred weekday, check for the same day, next week and repeat this procedure unless you find a date on which the teacher is available.
+8.  Keep updating the teacher availability for the days on which slots are booked.
 
-9. Sample JSON for teacher availability, student request format and response format can be found [here](./README.md)
+9.  Sample JSON for teacher availability, student request format and response format can be found [here](./README.md)
