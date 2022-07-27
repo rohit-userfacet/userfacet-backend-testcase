@@ -1,4 +1,7 @@
-[
+{
+  "full_name": "Anu Agarwal",
+  "email": "anu.agarwal@test.com",
+  "availability": [
     {
       "weekday": "monday",
       "slots": [
@@ -35,3 +38,4 @@
       ]
     }
   ]
+}
